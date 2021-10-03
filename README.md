@@ -15,7 +15,7 @@ https://code.earthengine.google.com/3d58a4378171d3fe6e3b35d620826b50 <br>
 https://code.earthengine.google.com/3b2580172653743e3618f5d6d504f54a<br>
 
 ## Modification Guideline
-To apply our code to your interest, please change the followings.
+To apply our code to your interest, please change the following properties. In our codes, those properties are listed below of `/*** Start of main program ***/`.
 #### Location
 You can change the location with the function `Map.setCenter(lon,lat)`.
 #### Date
