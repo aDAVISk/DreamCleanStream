@@ -40,6 +40,8 @@ function calcNDVI(image) {
 }
 
 /*** Start of main program ***/
+Map.setCenter(133.052158, 35.563548,16);
+
 var str_day = '07-03'
 var end_day = '08-31'
 var tg_year = '2021'
@@ -99,7 +101,7 @@ var visopt = {
   //bands: ['B7', 'B11', 'B8'],
   bands:['B4','B3','B2'],
 };
-Map.setCenter(133.052158, 35.563548,16);
+
 Map.addLayer(tg_med, visopt,'rgb');
 Map.addLayer(diff, vis,'indexDiff');
 
