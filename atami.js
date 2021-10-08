@@ -70,8 +70,8 @@ var tg_med = tg.median();
 var bg_med = bg.median();
 
 // Adding FDI Floating Debris Index
-tg_med = ee.Image.cat(tg_med,tg.map(calcFDI).median());
-bg_med = ee.Image.cat(bg_med,bg.map(calcFDI).median());
+tg_med = ee.Image.cat(tg_med,tg.map(calcFDI).clip(geometry).median());
+bg_med = ee.Image.cat(bg_med,bg.map(calcFDI).clip(geometry).median());
 
 // Adding PI Plastic Index
 tg_med = ee.Image.cat(tg_med,tg.map(calcPI).median());
