@@ -106,3 +106,8 @@ Map.addLayer(tg_med, visopt,'rgb');
 Map.addLayer(diff, vis,'indexDiff');
 
 
+var region = geometry.toGeoJSONString();
+var saveImage = diff.visualize(vis);
+print("saveImage",saveImage)
+print(saveImage.getThumbURL({'name':"output",'region':region,'scale':5,'format':"png"}));
+
