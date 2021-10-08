@@ -6,7 +6,7 @@ https://2021.spaceappschallenge.org/challenges/statements/leveraging-aiml-for-pl
 The scripts are working on Google Earth Engine. Please check the following URLs.<br>
 #### Ocean Samples
 * Atami landslide location <br>
-Google Earth Engine https://code.earthengine.google.com/253de0edc9154a5a493cbb396ba2164d <br>
+Google Earth Engine https://code.earthengine.google.com/ea302f9d16846283321d1f800fb94d75 <br>
 Google Colaboratory https://colab.research.google.com/drive/1M33BPuBllM3rqL2r03wCHNKM-XJYOTkr?usp=sharing <br>
 * Kaga port, Shimane prefecture <br>
 Google Earth Engine https://code.earthengine.google.com/3d58a4378171d3fe6e3b35d620826b50 <br>
